@@ -13,7 +13,7 @@ export default function Card({ result }) {
           width={500}
           height={300}
           className='sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300'
-        ></Image>
+        alt='image'></Image>
         <div className='p-2'>
           <p className='line-clamp-2 text-md'>{result.overview}</p>
           <h2 className='text-lg font-bold truncate'>
